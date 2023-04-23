@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: wreczyck
+    password: <password>
+    url: jdbc:sqlserver://morfeusz.wszib.edu.pl:1433;databaseName=wreczyck;encrypt=false;
+  jpa:
+    hibernate:
+      ddl-auto: update
+
